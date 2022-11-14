@@ -24,18 +24,19 @@ public class TypeOfLocator2 {
 //		By name locator
 		WebElement username = driver.findElement(By.name("username"));
 		
-		username.sendKeys("Velocity");
+		username.sendKeys("Admin");
 		
 		
 		WebElement password = driver.findElement(By.name("password"));
 		
-		password.sendKeys("sgjhgdagdasd");
+		password.sendKeys("admin123");
 	
 //		By class locator
 		WebElement forgotlink = driver.findElement(By.className("orangehrm-login-forgot"));
 
 		forgotlink.click();
-	
+		
+		
 	}
 
 }

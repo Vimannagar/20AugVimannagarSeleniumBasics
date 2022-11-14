@@ -34,6 +34,14 @@ public class TypeOfLocator3 {
 		
 		signuplink2.click();
 		
+		
+		
+//		By tagname():
+		
+		 driver.findElement(By.tagName("input"));
+		
+		
+		
 	
 	}
 
