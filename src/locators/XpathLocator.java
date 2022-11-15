@@ -45,6 +45,17 @@ public class XpathLocator {
 		gender.click();
 		
 		
+//		text()
+		
+		WebElement textmessage = driver.findElement(By.xpath("//*[text()='Create a new account']"));
+		
+		String message = textmessage.getText();
+		
+		System.out.println(message);
+		
+		
+//		
+		
 		
 		
 	}

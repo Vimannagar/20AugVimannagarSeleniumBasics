@@ -41,6 +41,8 @@ public class TypeOfLocator3 {
 		 driver.findElement(By.tagName("input"));
 		
 		
+		 
+		 
 		
 	
 	}
