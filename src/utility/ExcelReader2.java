@@ -15,7 +15,7 @@ public class ExcelReader2 {
 	public static void main(String[] args) throws IOException {
 //		String path = "F:\\Desktop\\VimanNagar\\20 Aug\\VimannagarTestData.xlsx";
 		
-		String path= System.getProperty("user.dir")+"\\VimannagarTestData.xlsx";
+		String path= "C:\\Users\\DELL\\Desktop\\TestDataVimannagar.xlsx";
 
 		File src = new File(path);
 
@@ -23,7 +23,9 @@ public class ExcelReader2 {
 
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
 
-		XSSFSheet sh1 = wb.getSheet("20AugBatch");
+//		XSSFSheet sh1 = wb.getSheet("Sheet1");
+		
+		XSSFSheet sh1 = wb.getSheetAt(0);
 
 //		read the value from row and column
 
@@ -33,9 +35,9 @@ public class ExcelReader2 {
 		
 		
 		
-		int rowcount = sh1.getLastRowNum();
+		int rowcount = sh1.getLastRowNum();//LastRowNum method will always return the max index value of the row
 		
-		int columncount = sh1.getRow(0).getLastCellNum();
+		int columncount = sh1.getRow(0).getLastCellNum();// actual column count
 		
 		for(int i=0; i<=rowcount; i++)
 		{
@@ -46,6 +48,10 @@ public class ExcelReader2 {
 			}
 			
 			System.out.println();
+			
+			
+			
+			
 		}
 	}
 
