@@ -1,6 +1,7 @@
 package locators;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -27,26 +28,14 @@ public class OrangeLogin {
 		driver.findElement(By.xpath("//*[@name='password']")).sendKeys("admin123");
 		
 		driver.findElement(By.xpath("//*[@type='submit']")).click();
-		
-		Thread.sleep(4000);
+	
+		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+	
 //		Clicking on Admin tab
 		
 		driver.findElement(By.xpath("(//*[@class='oxd-main-menu-item'])[1]")).click();
 		
-		Thread.sleep(2000);
-		
-	List<WebElement> checkboxes = driver.findElements(By.xpath("//*[@class='oxd-icon bi-check oxd-checkbox-input-icon']"));
 	
-		int i = 1;
-			for(WebElement checkbox:checkboxes)
-			{
-				if(i!=1)
-				{
-				checkbox.click();
-				}
-				
-				i++;
-			}
 	
 	}	
 	
