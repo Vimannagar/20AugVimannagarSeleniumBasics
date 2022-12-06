@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-06T09:46:03 IST" name="Default suite" finished-at="2022-12-06T09:46:03 IST" duration-ms="123">
+    <groups>
+    </groups>
+    <test started-at="2022-12-06T09:46:03 IST" name="Default test" finished-at="2022-12-06T09:46:03 IST" duration-ms="123">
+      <class name="testngdiscussion.TestCaseDefinition">
+        <test-method signature="testCase1()[pri:0, instance:testngdiscussion.TestCaseDefinition@5d0a1059]" started-at="2022-12-06T09:46:03 IST" name="testCase1" finished-at="2022-12-06T09:46:03 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:testngdiscussion.TestCaseDefinition@5d0a1059]" started-at="2022-12-06T09:46:03 IST" name="testCase2" finished-at="2022-12-06T09:46:03 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+      </class> <!-- testngdiscussion.TestCaseDefinition -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
