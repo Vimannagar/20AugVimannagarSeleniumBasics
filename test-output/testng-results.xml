@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-06T09:46:03 IST" name="Default suite" finished-at="2022-12-06T09:46:03 IST" duration-ms="123">
+  <suite started-at="2022-12-07T09:50:28 IST" name="Default suite" finished-at="2022-12-07T09:50:29 IST" duration-ms="122">
     <groups>
     </groups>
-    <test started-at="2022-12-06T09:46:03 IST" name="Default test" finished-at="2022-12-06T09:46:03 IST" duration-ms="123">
-      <class name="testngdiscussion.TestCaseDefinition">
-        <test-method signature="testCase1()[pri:0, instance:testngdiscussion.TestCaseDefinition@5d0a1059]" started-at="2022-12-06T09:46:03 IST" name="testCase1" finished-at="2022-12-06T09:46:03 IST" duration-ms="14" status="PASS">
+    <test started-at="2022-12-07T09:50:28 IST" name="Default test" finished-at="2022-12-07T09:50:29 IST" duration-ms="122">
+      <class name="testngdiscussion.EnabledKeyword">
+        <test-method signature="login()[pri:1, instance:testngdiscussion.EnabledKeyword@54bff557]" started-at="2022-12-07T09:50:29 IST" name="login" finished-at="2022-12-07T09:50:29 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method signature="testCase2()[pri:0, instance:testngdiscussion.TestCaseDefinition@5d0a1059]" started-at="2022-12-06T09:46:03 IST" name="testCase2" finished-at="2022-12-06T09:46:03 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="home()[pri:3, instance:testngdiscussion.EnabledKeyword@54bff557]" started-at="2022-12-07T09:50:29 IST" name="home" finished-at="2022-12-07T09:50:29 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase2 -->
-      </class> <!-- testngdiscussion.TestCaseDefinition -->
+        </test-method> <!-- home -->
+        <test-method signature="timeline()[pri:3, instance:testngdiscussion.EnabledKeyword@54bff557]" started-at="2022-12-07T09:50:29 IST" name="timeline" finished-at="2022-12-07T09:50:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeline -->
+        <test-method signature="logout()[pri:5, instance:testngdiscussion.EnabledKeyword@54bff557]" started-at="2022-12-07T09:50:29 IST" name="logout" finished-at="2022-12-07T09:50:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testngdiscussion.EnabledKeyword -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
