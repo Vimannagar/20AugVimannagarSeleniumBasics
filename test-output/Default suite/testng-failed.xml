@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngdiscussion.TimeOutKeyword">
+      <class name="testngdiscussion.DependsOnMethodsKeyword">
         <methods>
-          <include name="testCase"/>
+          <include name="profile"/>
+          <include name="timeline"/>
+          <include name="home"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- testngdiscussion.TimeOutKeyword -->
+      </class> <!-- testngdiscussion.DependsOnMethodsKeyword -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
