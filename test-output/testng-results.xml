@@ -1,25 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-08T09:57:12 IST" name="Default suite" finished-at="2022-12-08T09:57:12 IST" duration-ms="149">
+  <suite started-at="2022-12-09T09:53:17 IST" name="Default suite" finished-at="2022-12-09T09:53:17 IST" duration-ms="147">
     <groups>
     </groups>
-    <test started-at="2022-12-08T09:57:12 IST" name="Default test" finished-at="2022-12-08T09:57:12 IST" duration-ms="149">
-      <class name="testngdiscussion.TestClass1">
-        <test-method signature="login()[pri:1, instance:testngdiscussion.TestClass1@485966cc]" started-at="2022-12-08T09:57:12 IST" name="login" finished-at="2022-12-08T09:57:12 IST" duration-ms="14" status="PASS">
+    <test started-at="2022-12-09T09:53:17 IST" name="Default test" finished-at="2022-12-09T09:53:17 IST" duration-ms="147">
+      <class name="testngdiscussion.Annotations">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testngdiscussion.Annotations@3527942a]" started-at="2022-12-09T09:53:17 IST" name="beforeClass" finished-at="2022-12-09T09:53:17 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="home()[pri:2, instance:testngdiscussion.TestClass1@485966cc]" started-at="2022-12-08T09:57:12 IST" name="home" finished-at="2022-12-08T09:57:12 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testngdiscussion.Annotations@3527942a]" started-at="2022-12-09T09:53:17 IST" name="beforeMethod" finished-at="2022-12-09T09:53:17 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- home -->
-        <test-method signature="timeline()[pri:3, instance:testngdiscussion.TestClass1@485966cc]" started-at="2022-12-08T09:57:12 IST" name="timeline" finished-at="2022-12-08T09:57:12 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase1()[pri:0, instance:testngdiscussion.Annotations@3527942a]" started-at="2022-12-09T09:53:17 IST" name="testCase1" finished-at="2022-12-09T09:53:17 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- timeline -->
-      </class> <!-- testngdiscussion.TestClass1 -->
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testngdiscussion.Annotations@3527942a]" started-at="2022-12-09T09:53:17 IST" name="afterMethod" finished-at="2022-12-09T09:53:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testngdiscussion.Annotations@3527942a]" started-at="2022-12-09T09:53:17 IST" name="beforeMethod" finished-at="2022-12-09T09:53:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase2()[pri:0, instance:testngdiscussion.Annotations@3527942a]" started-at="2022-12-09T09:53:17 IST" name="testCase2" finished-at="2022-12-09T09:53:17 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testngdiscussion.Annotations@3527942a]" started-at="2022-12-09T09:53:17 IST" name="afterMethod" finished-at="2022-12-09T09:53:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testngdiscussion.Annotations@3527942a]" started-at="2022-12-09T09:53:17 IST" name="afterClass" finished-at="2022-12-09T09:53:17 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testngdiscussion.Annotations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -2,7 +2,7 @@ package testngdiscussion;
 
 import org.testng.annotations.Test;
 
-public class TestClass2 extends TestClass1 {
+public class TestClass2  {
 
 	@Test(priority = 4)
 	public void profile()
