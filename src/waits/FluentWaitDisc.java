@@ -30,10 +30,13 @@ public class FluentWaitDisc {
 				.ignoring(NoSuchElementException.class);
 		
 		
-		wait.until(ExpectedConditions.elementSelectionStateToBe(checkbox, true));
+		wait.until(ExpectedConditions.elementSelectionStateToBe(By.xpath("//*[@id='ch']"), true));
 		
 		driver.findElement(By.xpath("//*[@id='enable-button']")).click();
 	
+		
+		
+		
 	}
 
 	}

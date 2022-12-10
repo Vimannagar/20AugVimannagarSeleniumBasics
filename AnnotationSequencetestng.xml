@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Module1">
+    <classes>
+      <class name="testngdiscussion.Annotations"/>
+      <class name="testngdiscussion.Annotations2"/>
+          
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Module2">
+    <classes>
+           <class name="popuphandling.Annotations3"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
