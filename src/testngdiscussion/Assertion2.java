@@ -6,9 +6,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
-public class AssertionsDiscussion {
-	WebDriver driver;
+public class Assertion2 {
+//	Soft assert
+	
+WebDriver driver;
 	
 	@Test
 	public void validateText()
@@ -29,32 +32,15 @@ public class AssertionsDiscussion {
 		
 		boolean ispresent = actualtypedtext.contains("too");
 		
-		Assert.assertEquals(ispresent, true);
+		SoftAssert sa = new SoftAssert();
 		
+		sa.assertEquals(ispresent, true);
+			
 		System.out.println("Test case got completed");
 		
+		sa.assertAll();
 		
-	}
-	
-	@Test
-	public void verifyTitle()
-	{
-	String titleofpage = driver.getTitle();
-	
-	System.out.println(titleofpage);//Sign up for Facebook | Facebook
-	
-	Assert.assertEquals(titleofpage, "Sign up for Facebook | Facebook");
-	}
-	
-	@Test
-	public void verifyTextDisplayed()
-	{
-		WebElement text = driver.findElement(By.xpath("//*[text()='Create a new account']"));
-	
 		
-		boolean isdisp = text.isDisplayed();
-		
-		Assert.assertTrue(false, "Test case failed please raise a bug");
 	}
 	
 

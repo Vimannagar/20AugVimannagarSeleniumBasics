@@ -1,69 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-12T09:52:00 IST" name="Default suite" finished-at="2022-12-12T09:52:10 IST" duration-ms="10233">
+  <suite started-at="2022-12-13T09:54:04 IST" name="Suite" finished-at="2022-12-13T09:54:04 IST" duration-ms="130">
     <groups>
+      <group name="functional">
+        <method signature="GroupingOfTestCase.home()[pri:0, instance:testngdiscussion.GroupingOfTestCase@3ee37e5a]" name="home" class="testngdiscussion.GroupingOfTestCase"/>
+      </group> <!-- functional -->
+      <group name="sanity">
+        <method signature="GroupingOfTestCase.login()[pri:0, instance:testngdiscussion.GroupingOfTestCase@3ee37e5a]" name="login" class="testngdiscussion.GroupingOfTestCase"/>
+        <method signature="GroupingOfTestCase.logout()[pri:0, instance:testngdiscussion.GroupingOfTestCase@3ee37e5a]" name="logout" class="testngdiscussion.GroupingOfTestCase"/>
+        <method signature="GroupingOfTestCase.timeline()[pri:0, instance:testngdiscussion.GroupingOfTestCase@3ee37e5a]" name="timeline" class="testngdiscussion.GroupingOfTestCase"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2022-12-12T09:52:00 IST" name="Default test" finished-at="2022-12-12T09:52:10 IST" duration-ms="10233">
-      <class name="testngdiscussion.AssertionsDiscussion">
-        <test-method signature="validateText()[pri:0, instance:testngdiscussion.AssertionsDiscussion@5b03b9fe]" started-at="2022-12-12T09:52:00 IST" name="validateText" finished-at="2022-12-12T09:52:10 IST" duration-ms="10025" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:819)
-at org.testng.Assert.assertEquals(Assert.java:829)
-at testngdiscussion.AssertionsDiscussion.validateText(AssertionsDiscussion.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+    <test started-at="2022-12-13T09:54:04 IST" name="Test" finished-at="2022-12-13T09:54:04 IST" duration-ms="130">
+      <class name="testngdiscussion.GroupingOfTestCase">
+        <test-method signature="home()[pri:0, instance:testngdiscussion.GroupingOfTestCase@3ee37e5a]" started-at="2022-12-13T09:54:04 IST" name="home" finished-at="2022-12-13T09:54:04 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateText -->
-        <test-method signature="verifyTextDisplayed()[pri:0, instance:testngdiscussion.AssertionsDiscussion@5b03b9fe]" started-at="2022-12-12T09:52:10 IST" name="verifyTextDisplayed" finished-at="2022-12-12T09:52:10 IST" duration-ms="77" status="PASS">
+        </test-method> <!-- home -->
+        <test-method signature="login()[pri:0, instance:testngdiscussion.GroupingOfTestCase@3ee37e5a]" started-at="2022-12-13T09:54:04 IST" name="login" finished-at="2022-12-13T09:54:04 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTextDisplayed -->
-        <test-method signature="verifyTitle()[pri:0, instance:testngdiscussion.AssertionsDiscussion@5b03b9fe]" started-at="2022-12-12T09:52:10 IST" name="verifyTitle" finished-at="2022-12-12T09:52:10 IST" duration-ms="34" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:testngdiscussion.GroupingOfTestCase@3ee37e5a]" started-at="2022-12-13T09:54:04 IST" name="logout" finished-at="2022-12-13T09:54:04 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTitle -->
-      </class> <!-- testngdiscussion.AssertionsDiscussion -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- logout -->
+        <test-method signature="timeline()[pri:0, instance:testngdiscussion.GroupingOfTestCase@3ee37e5a]" started-at="2022-12-13T09:54:04 IST" name="timeline" finished-at="2022-12-13T09:54:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeline -->
+      </class> <!-- testngdiscussion.GroupingOfTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
