@@ -11,7 +11,8 @@
 
 		<classes>
 			<class name="testngdiscussion.GroupingOfTestCase" />
-			
+			<class name="testngdiscussion.GroupingOfTestCase2" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
+

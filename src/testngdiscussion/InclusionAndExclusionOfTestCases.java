@@ -2,42 +2,37 @@ package testngdiscussion;
 
 import org.testng.annotations.Test;
 
-public class GroupingOfTestCase {
-	@Test(groups = {"sanity", "functional"})
+public class InclusionAndExclusionOfTestCases {
+	
+	@Test(priority = 1)
 	public void login()
 	{
 		System.out.println("Login test case");
 	}
 	
-	@Test(groups = "functional")
+	@Test(priority = 3)
 	public void home()
 	{
 		System.out.println("home test case");
 	}
 	
 	
-	@Test(groups = "sanity")
+	@Test(priority = 3)
 	public void timeline()
 	{
 		System.out.println("timeline test case");
 	}
 	
-	@Test(groups = {"Regression" , "sanity"})
+	@Test(priority = -40)
 	public void profile()
 	{
 		System.out.println("profile test case");
 	}
 	
-	@Test(groups = "sanity")
+	@Test(priority = 5)
 	public void logout()
 	{
 		System.out.println("logout test case");
-	}
-	
-	@Test
-	public void closeBrowser()
-	{
-		System.out.println("Close browser testcase");
 	}
 
 
