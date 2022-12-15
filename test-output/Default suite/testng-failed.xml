@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngdiscussion.Assertion2">
+      <class name="testngdiscussion.TestCases">
         <methods>
-          <include name="validateText"/>
+          <include name="navToLoginScreen"/>
+          <include name="loginToApp"/>
         </methods>
-      </class> <!-- testngdiscussion.Assertion2 -->
+      </class> <!-- testngdiscussion.TestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

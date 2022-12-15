@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-14T09:31:11 IST" name="Suite" finished-at="2022-12-14T09:31:11 IST" duration-ms="137">
+  <suite started-at="2022-12-15T08:56:17 IST" name="Amazon Listeners test" finished-at="2022-12-15T08:56:51 IST" duration-ms="34180">
     <groups>
     </groups>
-    <test started-at="2022-12-14T09:31:11 IST" name="Test" finished-at="2022-12-14T09:31:11 IST" duration-ms="137">
-      <class name="testngdiscussion.InclusionAndExclusionOfTestCases">
-        <test-method signature="profile()[pri:-40, instance:testngdiscussion.InclusionAndExclusionOfTestCases@54bff557]" started-at="2022-12-14T09:31:11 IST" name="profile" finished-at="2022-12-14T09:31:11 IST" duration-ms="13" status="PASS">
+    <test started-at="2022-12-15T08:56:17 IST" name="Authentication module" finished-at="2022-12-15T08:56:51 IST" duration-ms="34180">
+      <class name="testngdiscussion.TestCases">
+        <test-method signature="navToLoginScreen()[pri:1, instance:testngdiscussion.TestCases@5b03b9fe]" started-at="2022-12-15T08:56:17 IST" name="navToLoginScreen" finished-at="2022-12-15T08:56:48 IST" duration-ms="30790" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- profile -->
-        <test-method signature="timeline()[pri:3, instance:testngdiscussion.InclusionAndExclusionOfTestCases@54bff557]" started-at="2022-12-14T09:31:11 IST" name="timeline" finished-at="2022-12-14T09:31:11 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- navToLoginScreen -->
+        <test-method signature="loginToApp()[pri:2, instance:testngdiscussion.TestCases@5b03b9fe]" started-at="2022-12-15T08:56:48 IST" name="loginToApp" finished-at="2022-12-15T08:56:51 IST" duration-ms="3232" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- timeline -->
-        <test-method signature="logout()[pri:5, instance:testngdiscussion.InclusionAndExclusionOfTestCases@54bff557]" started-at="2022-12-14T09:31:11 IST" name="logout" finished-at="2022-12-14T09:31:11 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- testngdiscussion.InclusionAndExclusionOfTestCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- loginToApp -->
+      </class> <!-- testngdiscussion.TestCases -->
+    </test> <!-- Authentication module -->
+  </suite> <!-- Amazon Listeners test -->
 </testng-results>

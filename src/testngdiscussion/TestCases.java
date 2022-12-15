@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class TestCases {
 	
-	 WebDriver driver;
+	static WebDriver driver;
 	 
 		@Test(priority = 1)
 		public void navToLoginScreen()
@@ -34,6 +34,8 @@ public class TestCases {
 			driver.findElement(By.xpath("//*[@id='nav-flyout-ya-signin']//*[@class='nav-action-button']")).click();
 			
 			driver.findElement(By.xpath("//*[@id='ap_email']")).sendKeys("abc123@hotmail.com");
+	
+		
 		}
 
 }
