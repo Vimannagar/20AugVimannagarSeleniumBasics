@@ -8,7 +8,7 @@ import org.testng.ITestResult;
 
 import utility.ScreenShot;
 
-public class TestNGListeners extends TestCases implements ITestListener
+public class TestNGListeners extends AmazonTest implements ITestListener
 {
 
 	@Override

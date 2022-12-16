@@ -6,11 +6,11 @@
   </listeners>
   <test thread-count="5" name="Authentication module(failed)">
     <classes>
-      <class name="testngdiscussion.TestCases">
+      <class name="testngdiscussion.AmazonTest">
         <methods>
-          <include name="loginToApp"/>
+          <include name="navToUrl"/>
         </methods>
-      </class> <!-- testngdiscussion.TestCases -->
+      </class> <!-- testngdiscussion.AmazonTest -->
     </classes>
   </test> <!-- Authentication module(failed) -->
 </suite> <!-- Failed suite [Amazon Listeners test] -->

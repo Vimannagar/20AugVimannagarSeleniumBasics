@@ -7,7 +7,7 @@
   <test thread-count="5" name="Authentication module">
   
     <classes>
-      <class name="testngdiscussion.TestCases"/>
+      <class name="testngdiscussion.AmazonTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
