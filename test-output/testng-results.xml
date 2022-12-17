@@ -1,97 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-16T09:54:39 IST" name="Suite" finished-at="2022-12-16T09:55:15 IST" duration-ms="36210">
+  <suite started-at="2022-12-17T10:10:34 IST" name="Suite" finished-at="2022-12-17T10:10:44 IST" duration-ms="9680">
     <groups>
     </groups>
-    <test started-at="2022-12-16T09:54:39 IST" name="Test" finished-at="2022-12-16T09:55:15 IST" duration-ms="36210">
-      <class name="testngdiscussion.ParallelClassExecution2">
-        <test-method signature="navToUrl()[pri:1, instance:testngdiscussion.ParallelClassExecution2@71a8adcf]" started-at="2022-12-16T09:54:39 IST" name="navToUrl" finished-at="2022-12-16T09:54:54 IST" duration-ms="14665" status="PASS">
+    <test started-at="2022-12-17T10:10:34 IST" name="Test" finished-at="2022-12-17T10:10:44 IST" duration-ms="9680">
+      <class name="testngdiscussion.ParameterizationOfTestCase">
+        <test-method signature="chromeTestCase(java.lang.String)[pri:0, instance:testngdiscussion.ParameterizationOfTestCase@57cf54e1]" started-at="2022-12-17T10:10:35 IST" name="chromeTestCase" finished-at="2022-12-17T10:10:44 IST" duration-ms="9568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navToUrl -->
-        <test-method signature="enterData()[pri:2, instance:testngdiscussion.ParallelClassExecution2@71a8adcf]" started-at="2022-12-16T09:54:54 IST" name="enterData" finished-at="2022-12-16T09:54:58 IST" duration-ms="4101" status="PASS">
+        </test-method> <!-- chromeTestCase -->
+        <test-method signature="edgeTestCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.ParameterizationOfTestCase@57cf54e1]" started-at="2022-12-17T10:10:44 IST" name="edgeTestCase" finished-at="2022-12-17T10:10:44 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SIT]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterData -->
-      </class> <!-- testngdiscussion.ParallelClassExecution2 -->
-      <class name="testngdiscussion.ParallelClassExecution1">
-        <test-method signature="navToUrl()[pri:1, instance:testngdiscussion.ParallelClassExecution1@6e0f5f7f]" started-at="2022-12-16T09:54:39 IST" name="navToUrl" finished-at="2022-12-16T09:55:01 IST" duration-ms="21396" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertFalse(Assert.java:67)
-at org.testng.Assert.assertFalse(Assert.java:77)
-at testngdiscussion.ParallelClassExecution1.navToUrl(ParallelClassExecution1.java:28)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navToUrl -->
-        <test-method signature="enterUsername()[pri:2, instance:testngdiscussion.ParallelClassExecution1@6e0f5f7f]" started-at="2022-12-16T09:55:01 IST" name="enterUsername" finished-at="2022-12-16T09:55:06 IST" duration-ms="5602" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterUsername -->
-        <test-method signature="enterPassword()[pri:3, instance:testngdiscussion.ParallelClassExecution1@6e0f5f7f]" started-at="2022-12-16T09:55:06 IST" name="enterPassword" finished-at="2022-12-16T09:55:07 IST" duration-ms="1019" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterPassword -->
-        <test-method signature="getTitleOfpage()[pri:4, instance:testngdiscussion.ParallelClassExecution1@6e0f5f7f]" started-at="2022-12-16T09:55:07 IST" name="getTitleOfpage" finished-at="2022-12-16T09:55:15 IST" duration-ms="8034" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertFalse(Assert.java:67)
-at org.testng.Assert.assertFalse(Assert.java:77)
-at testngdiscussion.ParallelClassExecution1.getTitleOfpage(ParallelClassExecution1.java:78)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTitleOfpage -->
-      </class> <!-- testngdiscussion.ParallelClassExecution1 -->
+        </test-method> <!-- edgeTestCase -->
+      </class> <!-- testngdiscussion.ParameterizationOfTestCase -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
