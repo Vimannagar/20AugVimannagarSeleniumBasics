@@ -14,6 +14,9 @@ public class TestNGListeners extends AmazonTest implements ITestListener
 	@Override
 	public void onTestStart(ITestResult result) {
 		System.out.println(" Test case :"+result.getName());
+		
+		
+
 	}
 
 	@Override

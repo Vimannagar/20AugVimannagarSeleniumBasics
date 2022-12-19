@@ -11,16 +11,11 @@ public class ParameterizationOfTestCase {
 	@Parameters("webbrowser1")
 	@Test
 	public void chromeTestCase(String browser)
-	{
-		
-		
-		
-		
+	{		
 		System.out.println(browser);
 		if(browser.equals("Chrome"))
 		{
 		WebDriver driver = new ChromeDriver();
-		
 		}
 		else
 		{

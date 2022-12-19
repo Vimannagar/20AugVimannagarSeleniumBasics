@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-17T10:10:34 IST" name="Suite" finished-at="2022-12-17T10:10:44 IST" duration-ms="9680">
+  <suite started-at="2022-12-19T09:54:45 IST" name="Suite" finished-at="2022-12-19T09:55:08 IST" duration-ms="22969">
     <groups>
     </groups>
-    <test started-at="2022-12-17T10:10:34 IST" name="Test" finished-at="2022-12-17T10:10:44 IST" duration-ms="9680">
-      <class name="testngdiscussion.ParameterizationOfTestCase">
-        <test-method signature="chromeTestCase(java.lang.String)[pri:0, instance:testngdiscussion.ParameterizationOfTestCase@57cf54e1]" started-at="2022-12-17T10:10:35 IST" name="chromeTestCase" finished-at="2022-12-17T10:10:44 IST" duration-ms="9568" status="PASS">
+    <test started-at="2022-12-19T09:54:45 IST" name="Chrome test" finished-at="2022-12-19T09:54:58 IST" duration-ms="12902">
+      <class name="testngdiscussion.SingleTestCaseInMultipleBrowser">
+        <test-method signature="testCase(java.lang.String)[pri:0, instance:testngdiscussion.SingleTestCaseInMultipleBrowser@7c711375]" started-at="2022-12-19T09:54:45 IST" name="testCase" finished-at="2022-12-19T09:54:58 IST" duration-ms="12804" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -17,24 +17,23 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chromeTestCase -->
-        <test-method signature="edgeTestCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.ParameterizationOfTestCase@57cf54e1]" started-at="2022-12-17T10:10:44 IST" name="edgeTestCase" finished-at="2022-12-17T10:10:44 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- testCase -->
+      </class> <!-- testngdiscussion.SingleTestCaseInMultipleBrowser -->
+    </test> <!-- Chrome test -->
+    <test started-at="2022-12-19T09:54:45 IST" name="firefox test" finished-at="2022-12-19T09:55:08 IST" duration-ms="22967">
+      <class name="testngdiscussion.SingleTestCaseInMultipleBrowser">
+        <test-method signature="testCase(java.lang.String)[pri:0, instance:testngdiscussion.SingleTestCaseInMultipleBrowser@41a0aa7d]" started-at="2022-12-19T09:54:45 IST" name="testCase" finished-at="2022-12-19T09:55:08 IST" duration-ms="22880" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[SIT]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- edgeTestCase -->
-      </class> <!-- testngdiscussion.ParameterizationOfTestCase -->
-    </test> <!-- Test -->
+        </test-method> <!-- testCase -->
+      </class> <!-- testngdiscussion.SingleTestCaseInMultipleBrowser -->
+    </test> <!-- firefox test -->
   </suite> <!-- Suite -->
 </testng-results>

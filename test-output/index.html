@@ -51,12 +51,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>F:\Desktop\VimanNagar\May 21\20AugustVimanSeleniumBasics\ParametersIntestng.xml</span>
+                    <span>F:\Desktop\VimanNagar\May 21\20AugustVimanSeleniumBasics\SingleTestCaseOnMultipleBrowsertestng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,12 +104,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testngdiscussion.ParameterizationOfTestCase" class="method navigator-link" hash-for-method="chromeTestCase(Chrome)">chromeTestCase(Chrome)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testngdiscussion.SingleTestCaseInMultipleBrowser" class="method navigator-link" hash-for-method="testCase(Chrome)">testCase(Chrome)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testngdiscussion.ParameterizationOfTestCase" class="method navigator-link" hash-for-method="edgeTestCase(Edge, SIT)">edgeTestCase(Edge, SIT)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testngdiscussion.SingleTestCaseInMultipleBrowser" class="method navigator-link" hash-for-method="testCase(firefox)">testCase(firefox)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -127,23 +127,23 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testngdiscussion.ParameterizationOfTestCase</span>
+              <span class="class-name">testngdiscussion.SingleTestCaseInMultipleBrowser</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="chromeTestCase(Chrome)">
-                  </a> <!-- chromeTestCase(Chrome) -->
-                  <span class="method-name">chromeTestCase</span>
+                  <a name="testCase(Chrome)">
+                  </a> <!-- testCase(Chrome) -->
+                  <span class="method-name">testCase</span>
                   <span class="parameters">(Chrome)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="edgeTestCase(Edge, SIT)">
-                  </a> <!-- edgeTestCase(Edge, SIT) -->
-                  <span class="method-name">edgeTestCase</span>
-                  <span class="parameters">(Edge, SIT)</span>
+                  <a name="testCase(firefox)">
+                  </a> <!-- testCase(firefox) -->
+                  <span class="method-name">testCase</span>
+                  <span class="parameters">(firefox)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -151,21 +151,25 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">F:\Desktop\VimanNagar\May 21\20AugustVimanSeleniumBasics\ParametersIntestng.xml</span>
+            <span class="header-content">F:\Desktop\VimanNagar\May 21\20AugustVimanSeleniumBasics\SingleTestCaseOnMultipleBrowsertestng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
-    &lt;parameter name=&quot;environment&quot; value=&quot;SIT&quot;/&gt;
-    &lt;parameter name=&quot;webbrowser1&quot; value=&quot;Chrome&quot;/&gt;
-    &lt;parameter name=&quot;webbrowser2&quot; value=&quot;Edge&quot;/&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Chrome test&quot;&gt;
+    &lt;parameter name=&quot;webbrowser&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testngdiscussion.ParameterizationOfTestCase&quot;/&gt;
+      &lt;class name=&quot;testngdiscussion.SingleTestCaseInMultipleBrowser&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- Chrome test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;firefox test&quot;&gt;
+    &lt;parameter name=&quot;webbrowser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testngdiscussion.SingleTestCaseInMultipleBrowser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- firefox test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -177,7 +181,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Chrome test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">firefox test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -205,18 +212,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'chromeTestCase')
-data.setCell(0, 2, 'testngdiscussion.ParameterizationOfTestCase')
-data.setCell(0, 3, 9568);
+data.setCell(0, 1, 'testCase')
+data.setCell(0, 2, 'testngdiscussion.SingleTestCaseInMultipleBrowser')
+data.setCell(0, 3, 22880);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'edgeTestCase')
-data.setCell(1, 2, 'testngdiscussion.ParameterizationOfTestCase')
-data.setCell(1, 3, 2);
+data.setCell(1, 1, 'testCase')
+data.setCell(1, 2, 'testngdiscussion.SingleTestCaseInMultipleBrowser')
+data.setCell(1, 3, 12804);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -242,14 +249,14 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testngdiscussion.ParameterizationOfTestCase</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testngdiscussion.SingleTestCaseInMultipleBrowser</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">chromeTestCase(Chrome)</span>
+                <span class="method-name">testCase(Chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">edgeTestCase(Edge, SIT)</span>
-                <span class="method-start">9581 ms</span>
+                <span class="method-name">testCase(firefox)</span>
+                <span class="method-start">1 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
