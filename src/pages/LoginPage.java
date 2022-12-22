@@ -6,19 +6,19 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 public class LoginPage {
-	WebDriver driver;
+private	WebDriver driver;
 
-	By hoverelement = By.xpath("//*[@id='nav-link-accountList']");
+private	By hoverelement = By.xpath("//*[@id='nav-link-accountList']");
 	
-	By signinhover = By.xpath("//*[@id='nav-flyout-ya-signin']//*[@class='nav-action-button']");
+private	By signinhover = By.xpath("//*[@id='nav-flyout-ya-signin']//*[@class='nav-action-button']");
 
-	By mobilenumber = By.xpath("//*[@id='ap_email']");
+private	By mobilenumber = By.xpath("//*[@id='ap_email']");
 
-	By continueformobile = By.xpath("//*[@type='submit']");
+private	By continueformobile = By.xpath("//*[@type='submit']");
 
-	By password = By.xpath("//*[@id='ap_password']");
+private	By password = By.xpath("//*[@id='ap_password']");
 
-	By finalsignin = By.xpath("//*[@id='signInSubmit']");
+private	By finalsignin = By.xpath("//*[@id='signInSubmit']");
 	
 	
 	public LoginPage(WebDriver driver)
@@ -53,6 +53,17 @@ public class LoginPage {
 	public void clickOnSignIn()
 	{
 		driver.findElement(finalsignin).click();
+	}
+	
+	
+	public String getTitleOfPage()
+	{
+		String titleofpage = driver.getTitle();
+		
+		System.out.println(titleofpage);
+		
+		return titleofpage;
+	
 	}
 	
 	

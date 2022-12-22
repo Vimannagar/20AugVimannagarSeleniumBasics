@@ -6,6 +6,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
+import pages.HomePage;
 import pages.LoginPage;
 
 public class BaseTest {
@@ -13,6 +14,7 @@ public class BaseTest {
 	static WebDriver driver;
 	
 	public LoginPage loginpage;
+	public HomePage homepage;
 	
 	@BeforeSuite
 	public void initBrowser()
@@ -33,6 +35,8 @@ public class BaseTest {
 	public void createObject()
 	{
 		 loginpage = new LoginPage(driver);
+		 
+		  homepage = new HomePage(driver);
 	}
 	
 	
