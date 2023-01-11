@@ -1,17 +1,381 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-09T09:57:07 IST" name="Default suite" finished-at="2023-01-09T09:57:31 IST" duration-ms="23997">
+  <suite started-at="2023-01-11T20:05:52 IST" name="Default suite" finished-at="2023-01-11T20:05:55 IST" duration-ms="2942">
     <groups>
     </groups>
-    <test started-at="2023-01-09T09:57:07 IST" name="Default test" finished-at="2023-01-09T09:57:31 IST" duration-ms="23997">
-      <class name="testngdiscussion.GoIbibo">
-        <test-method signature="enterCityName()[pri:0, instance:testngdiscussion.GoIbibo@7c711375]" started-at="2023-01-09T09:57:07 IST" name="enterCityName" finished-at="2023-01-09T09:57:31 IST" duration-ms="23894" status="PASS">
+    <test started-at="2023-01-11T20:05:52 IST" name="Default test" finished-at="2023-01-11T20:05:55 IST" duration-ms="2942">
+      <class name="testngdiscussion.DPTest">
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterCityName -->
-      </class> <!-- testngdiscussion.GoIbibo -->
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:54 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:54 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:55 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:55 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:55 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:55 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:55 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:55 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:55 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:55 IST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:55 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:55 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:testngdiscussion.DPTest@5d0a1059]" started-at="2023-01-11T20:05:55 IST" name="testCase" data-provider="testdata" finished-at="2023-01-11T20:05:55 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+      </class> <!-- testngdiscussion.DPTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
